@@ -1,32 +1,31 @@
 <%- include("partials/header") -%>
-<h1>HELLO</h1>
+<div class="content">
 
-<form class="" action="/" method="post">
-  <input type="text" name="oldUrl" value="">
-  <button type="submit" name="button">OK</button>
-</form>
+  <form class="" action="/" method="post">
+    <input type="text" name="oldUrl" value="">
+    <button type="submit" name="button" class="btn btn-secondary">Shorten it!</button>
+  </form>
 
-<div class="box">
-  <table>
-    <tr>
-      <td>
-        <%oldUrl.forEach(function(url){ %>
-          <h5 data-toggle="tooltip" data-placement="top" title="<%= url %>"><%= url.substring(0, 40) %> ...</h5>
-
+  <div class="box">
+    <table>
+      <tr>
+        <td>
+          <%oldUrl.forEach(function(url){ %>
+          <h5 data-toggle="tooltip" data-placement="top" title="<%= url %>"><%= url.substring(0, 32) %> ...</h5>
           <% }) %>
 
-      </td>
-      <td>
-        <%newUrl.forEach(function(anotherUrl){ %>
-        <h5><a href="<%= anotherUrl %>" target="_blank"><%= anotherUrl %></a></h5>
+        </td>
+        <td>
+          <%newUrl.forEach(function(anotherUrl){ %>
+          <h5><a href="<%= anotherUrl %>" target="_blank"><%= anotherUrl %></a></h5>
 
-        <% }) %>
-      </td>
-    </tr>
-  </table>
-
-
-
+          <% }) %>
+        </td>
+      </tr>
+    </table>
+  </div>
 </div>
+
+
 
 <%- include("partials/footer") -%>

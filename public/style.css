@@ -1,0 +1,89 @@
+html *
+{
+font-family: 'Poppins', sans-serif;
+}
+
+#navigation .navbar-brand
+{
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* footer */
+
+.top-footer
+{
+  background-image: url("images/bg-boost-desktop.svg");
+  background-color: #3b3054;
+  color: #fff;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.footer{
+  background-color: #35323e;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.footer h6{
+  padding-bottom: 5px;
+  transition: 0.2s;
+}
+
+.footer li h6:hover{
+  color: #2acfcf;
+  cursor: pointer;
+}
+
+footer{
+  background-color: #35323e;
+
+}
+footer .brand{
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+footer .head-title
+{
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+li > h6{
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #bfbfbf;
+}
+
+.footer-icon
+{
+  padding-left: 20px;
+  transition: 0.3s;
+
+}
+
+.icon-box{
+  margin-left: 60px;
+  cursor: pointer;
+}
+
+.fb:hover {
+filter: invert(31%) sepia(9%) saturate(3701%) hue-rotate(183deg) brightness(100%) contrast(88%);
+}
+
+.tw:hover{
+  filter: invert(48%) sepia(87%) saturate(1401%) hue-rotate(176deg) brightness(97%) contrast(97%);
+}
+
+.pt:hover{
+filter: invert(70%) sepia(96%) saturate(7441%) hue-rotate(349deg) brightness(95%) contrast(98%);
+}
+
+.inst:hover{
+  filter: invert(27%) sepia(45%) saturate(3416%) hue-rotate(317deg) brightness(95%) contrast(91%);
+}
