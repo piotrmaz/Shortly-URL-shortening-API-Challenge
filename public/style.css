@@ -130,13 +130,11 @@ input:focus:valid {
   padding-left: 20px;
 }
 
-.form-input-button button {
-  margin-left: 25px;
-}
+
 
 .form-input-button button {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 12px 40px 12px 40px;
+  margin-left: 25px;
 }
 
 .box {
@@ -156,6 +154,15 @@ input:focus:valid {
   border-radius: 0 6px 6px 0;
   text-align: right;
   padding-right: 30px;
+}
+
+.right-box a {
+  color: #2acfcf;
+}
+
+.right-box a:hover {
+  color: #2acfcf;
+  text-decoration: none;
 }
 
 .box h5 {
@@ -275,12 +282,21 @@ input:focus:valid {
 /* footer */
 .top-footer {
   background-image: url("images/bg-boost-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #3b3054;
   color: #fff;
   text-align: center;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   margin-top: 0;
+}
+
+.top-footer h1
+{
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .footer {
