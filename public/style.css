@@ -13,6 +13,17 @@ html * {
   color: #f2f2f2 !important;
 }
 
+.button-radius {
+  border-radius: 40px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.button-large {
+  border-radius: 40px !important;
+  padding: 15px 35px !important;
+}
+
 #navigation .navbar-brand {
   font-size: 2.2rem;
   font-weight: 700;
@@ -46,7 +57,7 @@ html * {
 
 .top-info-section {
   position: relative;
-  padding-bottom: 200px;
+  padding-bottom: 80px;
   padding-right: 35px !important;
   padding-left: 35px !important;
 }
@@ -57,12 +68,44 @@ html * {
   padding-bottom: 350px;
 }
 
+input:invalid {
+  border: 3px solid #900;
+}
+
+input:valid {
+  border: 3px solid #009933;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+input:focus:valid {
+  outline: none;
+}
+
+.error {
+  display: flex;
+  width: 25%;
+  padding: 0;
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+
 .form-content {
   background-image: url("images/bg-shorten-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #3b3054;
-  text-align: center;
+  /* text-align: center; */
   position: relative;
   top: 70px;
   border-radius: 6px;
@@ -131,14 +174,13 @@ html * {
   transition: 0.2s;
 }
 
-.button-copy:hover
-{
+.button-copy:hover {
   transform: scale(0.95);
 }
 
 .button-copy:focus {
   border-color: transparent !important;
-  outline: none!important;
+  outline: none !important;
 }
 
 .header-advanced-static {
@@ -152,13 +194,14 @@ html * {
 
 .cards-advanced-statistic h2 {
   font-weight: bold;
-  font-size: 2.1rem;
+  font-size: 2.4rem;
 }
 
 .cards-advanced-statistic h6 {
   color: rgba(0, 0, 0, .5);
   padding-top: 15px;
   line-height: 2;
+  font-size: 1.2rem;
 }
 
 .border-behind-cards {
@@ -175,6 +218,10 @@ html * {
   position: relative;
   padding-bottom: 150px;
   z-index: 1;
+}
+
+.cards p {
+  color: #bfbfbf;
 }
 
 .my-card {
@@ -298,4 +345,10 @@ li>h6 {
 .inst:hover {
   /* filter: invert(27%) sepia(45%) saturate(3416%) hue-rotate(317deg) brightness(95%) contrast(91%); */
   fill: url(#inst) #447799;
+}
+
+.attribution {
+  background-color: #35323e;
+  text-align: center;
+  color: #bfbfbf;
 }
