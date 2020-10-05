@@ -1,3 +1,5 @@
+################  CHECK IT ON HEROKU - https://shortly-url-ch.herokuapp.com/  ################
+
 # Frontend Mentor - Shortly URL shortening API Challenge
 
 ![Design preview for the Shortly URL shortening API coding challenge](./design/desktop-preview.jpg)
