@@ -8,7 +8,7 @@
           <h1 class="info-header">More than just</br>shorter links</h1>
           <p class="info-description">Build your brand’s recognition and get detailed</br> insights
             on how your links are performing.</p>
-          <button type="submit" name="button" class="btn btn-secondary button-form">Shorten it!</button>
+          <button type="submit" name="button" class="btn button-form">Shorten it!</button>
         </div>
         <div class="illustation">
           <img class="w-100 illustation" src="images/illustration-working.svg" alt="illustration-working">
@@ -24,7 +24,7 @@
       <div class="form-input-button">
         <form class="" action="/" method="post">
           <input class="imput-form" type="text" name="oldUrl" value="" placeholder="Shorten a link here...">
-          <button type="submit" name="button" class="btn btn-secondary button-form">Shorten it!</button>
+          <button type="submit" name="button" class="btn button-form">Shorten it!</button>
         </form>
       </div>
     </div>
@@ -42,7 +42,7 @@
         </div>
         <div class="col-md-7 right-box">
           <%newUrl.forEach(function(anotherUrl){ %>
-          <h5><a href="<%= anotherUrl %>" target="_blank"><%= anotherUrl %></a><button type="button" name="button" class="btn btn-secondary button-copy">Copy!</button></h5>
+          <h5 ><a href="<%= anotherUrl %>" target="_blank"><%= anotherUrl %></a><button value="<%= anotherUrl %>" type="button" name="button" class="button-copy">Copy!</button></h5>
           <% }) %>
 
         </div>

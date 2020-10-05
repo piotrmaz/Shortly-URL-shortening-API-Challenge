@@ -2,6 +2,17 @@ html * {
   font-family: 'Poppins', sans-serif;
 }
 
+.btn {
+  background-color: #2acfcf !important;
+  color: #fff !important;
+  border: 0 !important;
+}
+
+.btn:hover {
+  background-color: #95eaea !important;
+  color: #f2f2f2 !important;
+}
+
 #navigation .navbar-brand {
   font-size: 2.2rem;
   font-weight: 700;
@@ -111,10 +122,26 @@ html * {
 
 .button-copy {
   margin-left: 45px;
+  padding: 7px 14px;
+  color: #fff;
+  border: 0;
+  background-color: #2acfcf;
+  border-radius: 6px;
+  border-color: transparent;
+  transition: 0.2s;
 }
 
-.header-advanced-static
+.button-copy:hover
 {
+  transform: scale(0.95);
+}
+
+.button-copy:focus {
+  border-color: transparent !important;
+  outline: none!important;
+}
+
+.header-advanced-static {
   padding-bottom: 100px;
 }
 
@@ -134,15 +161,14 @@ html * {
   line-height: 2;
 }
 
-.border-behind-cards
-{
+.border-behind-cards {
   margin-left: auto;
-margin-right: auto;
-border-bottom: 5px solid #2acfcf;
-width: 50%;
-position: relative;
-top: 150px;
-z-index: -1;
+  margin-right: auto;
+  border-bottom: 8px solid #2acfcf;
+  width: 50%;
+  position: relative;
+  top: 180px;
+  z-index: -1;
 }
 
 .cards {
@@ -174,31 +200,29 @@ z-index: -1;
   padding: 20px;
 }
 
-.first-card{
+.first-card {
   float: left;
   max-width: 30%;
 }
-.second-card
-{
+
+.second-card {
   margin-top: 50px;
   float: left;
   max-width: 30%;
 }
 
-.second-card .icon-top-card
-{
-top: 10px;
+.second-card .icon-top-card {
+  top: 10px;
 }
 
-.third-card{
+.third-card {
   margin-top: 100px;
   float: left;
   max-width: 30%;
 }
 
-.third-card .icon-top-card
-{
-top: 50px;
+.third-card .icon-top-card {
+  top: 50px;
 }
 
 /* footer */
