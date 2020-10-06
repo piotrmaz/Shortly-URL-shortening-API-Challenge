@@ -420,6 +420,30 @@ input:focus:valid {
   {
     padding-bottom: 0;
   }
+
+  footer
+  {
+    text-align: center;
+
+  }
+
+footer .brand {
+  margin-bottom: 60px!important;
+}
+
+.footer
+{
+    padding-top: 50px!important;
+}
+  .icon-box{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-top: 25px;
+  }
+  .footer-icon {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 /* footer */
