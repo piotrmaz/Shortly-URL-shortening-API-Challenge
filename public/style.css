@@ -56,23 +56,21 @@ html * {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-
   }
 
   .button-radius {
-    padding-left: 35%!important;
+    padding-left: 35% !important;
     padding-right: 35% !important;
-    padding-top: 15px!important;
-    padding-bottom: 15px!important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
   }
 
-  .navbar-toggler
-  {
-    border-color: transparent!important;
+  .navbar-toggler {
+    border-color: transparent !important;
   }
 
-  .navbar-toggler{
-    outline: none!important;
+  .navbar-toggler {
+    outline: none !important;
   }
 }
 
@@ -81,18 +79,70 @@ html * {
   margin-bottom: 0;
 }
 
+@media only screen and (max-width: 991px) {
+  #content {
+    padding-top: 0;
+  }
+
+  .illustation {
+    width: 120% !important;
+  }
+
+  .info-container {
+    margin-top: 450px;
+    text-align: center;
+    width: 100% !important;
+  }
+
+  .container {
+    max-width: 90% !important;
+  }
+
+  .top-info-section {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .info-header {
+    font-size: 3.5rem !important;
+  }
+
+  .info-description {
+    font-size: 1.1rem !important;
+  }
+
+  .form-input-button input {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+
+  .form-input-button button {
+    margin-left: 0 !important;
+    width: 100%;
+  }
+
+  .error {
+    top: 100px;
+    width: 60% !important;
+  }
+}
+
 /* info section */
 .illustation {
   position: absolute;
   right: -69px;
   object-position: 100px;
-  width: 60%;
+  width: 80%;
 }
 
 .info-header {
   font-size: 4.5rem;
   font-weight: 700;
   padding-top: 25px;
+}
+
+.info-container {
+  width: 52%;
 }
 
 .info-description {
@@ -103,8 +153,8 @@ html * {
 .top-info-section {
   position: relative;
   padding-bottom: 80px;
-  padding-right: 35px !important;
-  padding-left: 35px !important;
+  padding-right: 35px;
+  padding-left: 35px;
 }
 
 #advanced-statistic {
@@ -114,7 +164,7 @@ html * {
 }
 
 input:invalid {
-  border: 3px solid #900;
+  border: 3px solid #ff3333;
 }
 
 input:valid {
@@ -134,8 +184,8 @@ input:focus:valid {
   width: 25%;
   padding: 0;
   font-size: 80%;
-  color: #fff;
-  background-color: #900;
+  color: #ff3333;
+  /* background-color: #900; */
   border-radius: 0 0 5px 5px;
   box-sizing: border-box;
   position: absolute;
@@ -320,6 +370,56 @@ input:focus:valid {
 
 .third-card .icon-top-card {
   top: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+  .first-card {
+    float: none !important;
+    max-width: none !important;
+    text-align: center;
+  }
+
+  .second-card {
+    float: none !important;
+    max-width: none !important;
+    text-align: center;
+  }
+
+  .third-card {
+    float: none !important;
+    max-width: none !important;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .icon-top-card {
+    top: -50px;
+    width: fit-content;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .second-card .icon-top-card {
+    top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .third-card .icon-top-card {
+    top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .my-card h4
+  {
+    padding-top: 0;
+  }
+
+  #advanced-statistic
+  {
+    padding-bottom: 0;
+  }
 }
 
 /* footer */
