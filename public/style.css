@@ -79,13 +79,24 @@ html * {
   margin-bottom: 0;
 }
 
+@media only screen and (max-width: 1199px) {
+  .my-card {
+    margin-left: 0 !important;
+  }
+
+  .illustation {
+    width: 60% !important;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   #content {
     padding-top: 0;
   }
 
   .illustation {
-    width: 120% !important;
+    object-position: 150px !important;
+    width: auto !important;
   }
 
   .info-container {
@@ -105,6 +116,7 @@ html * {
 
   .info-header {
     font-size: 3.5rem !important;
+    padding-top: 80px !important;
   }
 
   .info-description {
@@ -127,12 +139,18 @@ html * {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .illustation {
+    object-position: 250px !important;
+  }
+}
+
 /* info section */
 .illustation {
   position: absolute;
-  right: -69px;
-  object-position: 100px;
-  width: 80%;
+  right: 0;
+  object-position: 140px;
+  width: auto;
 }
 
 .info-header {
@@ -411,35 +429,33 @@ input:focus:valid {
     margin-left: auto;
     margin-right: auto;
   }
-  .my-card h4
-  {
+
+  .my-card h4 {
     padding-top: 0;
   }
 
-  #advanced-statistic
-  {
+  #advanced-statistic {
     padding-bottom: 0;
   }
 
-  footer
-  {
+  footer {
     text-align: center;
-
   }
 
-footer .brand {
-  margin-bottom: 60px!important;
-}
+  footer .brand {
+    margin-bottom: 60px !important;
+  }
 
-.footer
-{
-    padding-top: 50px!important;
-}
-  .icon-box{
-    margin-left: auto!important;
-    margin-right: auto!important;
+  .footer {
+    padding-top: 50px !important;
+  }
+
+  .icon-box {
+    margin-left: auto !important;
+    margin-right: auto !important;
     margin-top: 25px;
   }
+
   .footer-icon {
     padding-right: 20px;
     padding-left: 20px;
